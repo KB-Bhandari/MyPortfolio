@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissor Game</title>
+   
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" 
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+        <link rel="stylesheet" href="./game.css">
+</head>
+<body>
+    <div class="choices">
+        <h1>Rock Paper Scissor Game</h1>
+        <div class="row " id="buttonBoxes">
+            <button class=" btn choice" id="rock">Rock</button>
+            <button class=" btn choice" id="paper">Paper</button>
+            <button class=" btn choice" id="scissor">Scissor</button>
+        </div>
+            
+       <div class="container">
+        <div class="row">
+            <div class="col">Computer score <span id="compScore">0</span></div>   
+            <div class="col">User score <span id="userScore">0</span></div>    
+   
+        </div>
+        <div class="row" id="msgBox">
+            <h2 id="msg"></h2>
+            <button class="btn" id="reset">Reset</button>
+
+        </div>
+            </div>
+       
+   </div>
+
+    <script src="./game.js"></script>
+</body>
+</html>
