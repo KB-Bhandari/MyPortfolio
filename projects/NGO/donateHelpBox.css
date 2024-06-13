@@ -1,0 +1,32 @@
+.helpPara{
+    padding: 10px;
+    font-size: 18px;
+
+}
+.helpBox{
+    background-color:orange;
+    padding: 10px;
+    height: 220px;
+    width: 100%;
+    margin: 0%;
+    /* border: 2px solid green; */
+    font-family: 'Times New Roman', Times, serif;
+}
+h3{
+    font-size: 26px;
+    font-weight: bold;
+    margin: 6px;
+}
+.donate:hover{
+    color: red;
+}
+.helpBox>a{
+    padding: 10px;
+}
+
+@media(max-width:768px){
+    .helpBox{
+        height: 390px;
+        
+    }
+}
