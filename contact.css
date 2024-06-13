@@ -1,0 +1,86 @@
+.contactBody{
+    background-image:linear-gradient(white,cyan); 
+    /* border: 2px solid black; */
+    height: 900px;
+}
+
+.contactTitle{
+       
+       grid-area: 1/1/4/2;
+       /*border: 2px solid red;*/
+      width: 90%;
+}
+#contact{
+    font-size: 100px;
+    color:white;
+    word-wrap: break-word;
+    filter: drop-shadow(5px 5px 5px rgb(184, 77, 77) );
+    
+}
+
+.innerBox{
+    /* background-image: linear-gradient(rgb(52, 51, 51), rgb(45, 35, 45)); */
+    background-color: darkcyan;
+    color: white;
+    text-decoration: none;
+    
+    padding: 10%;
+    height: 40vh;
+
+}
+.box1>h4,.box2>h4{
+    padding: 5px;
+    margin-bottom: 20px;
+   /* border: 1px solid red;*/
+    font-size:40px;
+    filter: drop-shadow(5px 5px 5px rgb(184, 77, 77) );
+}
+.box1{
+    grid-area: 1/2/1/4;
+      
+   
+}
+.box2{
+    grid-area: 1/4/1/5;
+}
+
+.container{
+    /* margin-top: 150px; */
+    display:grid;
+    gap: 10px;
+    grid-template-columns: auto auto auto;
+    text-align: center;
+    /* border: 4px double black; */
+    padding: 3%;
+    word-wrap:break-word;
+    margin-bottom: 5px;
+    background-image:linear-gradient(cyan,darkcyan,cyan); 
+   
+}
+#contactSection{
+    margin-top: 150px;
+}
+
+@media screen and ( max-width:500px)
+{  .container{
+    margin-top: 50px;
+    grid-template-columns: repeat( auto-fit, minmax(100px,100%));
+}
+.box1 ,.box2{
+    grid-area: auto/auto/auto/auto;
+    
+}
+    
+}
+@media (max-width:1000px) and (min-width:500px){
+    .container{
+        margin-top: 50px;
+        grid-template-columns: repeat( auto-fit, minmax(100px,100%));
+        word-wrap: break-word;
+    }
+    .box1 ,.box2{
+        grid-area: auto/auto/auto/auto;
+        
+    }
+    
+    }

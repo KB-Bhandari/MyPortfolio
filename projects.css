@@ -1,0 +1,57 @@
+.projectButton{
+    border-radius: 100%;
+    background-color:white;
+    border: 4px double darkcyan;;
+    height: 95px;
+    width:95px;
+    word-wrap: break-word;  
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.projectButton:hover{
+    border: 4px double white;
+    background-color:darkcyan    ;
+    color: white;
+}
+.rowBody{
+   height: 350px;
+    padding: 10px;
+    margin-bottom: 50px;
+    /* background-image: linear-gradient(rgb(52, 51, 51), rgb(45, 35, 45)); */
+    background-color:darkcyan;
+    background-image: linear-gradient(cyan, darkcyan);
+    justify-content: center;
+    
+    /* border:4px double black; */
+}
+#row-3{
+    margin-bottom: 0%;
+}
+#projectHead{
+    text-align: right;
+    /* background-color: rgba(0, 0, 0, 0.893); */
+    background-color:darkcyan;
+    padding: 40px;
+    
+}
+/*header{
+    border: 2px solid rgb(30, 255, 0);
+}*/
+.heading{
+    color: black;
+    font-family:'Times New Roman', Times, serif;
+}
+#sec-Id{
+    justify-content: center;
+    text-align: center;
+}
+body{
+    background-image: linear-gradient(white,cyan);
+}
+
+.projectList{
+    text-align: left;
+}

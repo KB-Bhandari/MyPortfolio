@@ -1,0 +1,114 @@
+.navBar,#footer{
+    
+    height:150px;
+    padding: 10px; 
+    padding-top: 15px;
+    /* background-image: linear-gradient( rgb(52, 51, 51), rgb(45, 35, 45)); */
+    background-color:darkcyan;
+    color: white;
+    /* border: 2px solid red; */
+    text-align: right;
+   
+    
+}
+.navBar>ul>li{
+    
+   display: inline;
+   padding: 10px;
+    
+  
+    
+}
+
+
+.menuItem{
+    color:white;
+    text-decoration: none;
+    font-size: larger;
+    
+}
+.menuItem:hover{
+    color: black;
+}
+.sectionBody{
+        /* color: white; */
+
+        padding: 20px;
+   /* border: 2px solid rgb(98, 0, 255);*/
+    
+}
+
+#homeBody{
+    /* background-color:rgb(66, 64, 64); */
+    /* background-color: cyan; */
+    background-image: linear-gradient(white,cyan);
+    
+    
+   }
+
+#bodySec-description, #aboutSection{
+    
+    text-align: justify;
+    margin-left: 40px;
+    margin-top: 40px;
+    
+}
+.span,span>a{
+    color: red;
+    font-size: larger;
+    text-decoration: none;
+}
+#bodySec-img{
+   
+    height: 300px;
+    text-align:center;
+   
+}
+#image{
+    
+   /* box-shadow: 5px 5px rgba(49, 9, 9, 0.241);*/
+    filter: drop-shadow(5px 5px 5px rgb(184, 77, 77) );
+    height: 100%;
+    object-fit:contain;
+    width: 100%;
+    margin-bottom: 20px;  
+   
+}
+
+.socioBox{
+    /* margin-top: 20px;    */
+   text-align: center;    
+   padding-left: 90px;   
+}
+
+.socialMedia{
+       border-radius: 100%;
+    height: 60px;
+    width:60px;
+    word-wrap: break-word;
+    text-align:center;
+    margin: 10px;
+    border: 4px double darkcyan;
+    background-color: white;
+    color: white;
+    font-weight: 500;
+}
+    .socialMedia:hover{
+        
+        border: 5px double white;
+        background-color:darkcyan;
+        color: black;
+
+    }
+    .socialMedia>a>i{
+        font-size: 30px;
+        color: black;
+    }
+    .resumeLink:hover{
+        color:red
+
+    }
+    .resumeLink{
+        color: blue;
+        font-weight: bold;
+    }
